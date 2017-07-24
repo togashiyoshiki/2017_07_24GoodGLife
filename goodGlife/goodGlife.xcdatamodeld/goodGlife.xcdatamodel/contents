@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Calender" representedClassName=".Calender" syncable="YES">
+        <attribute name="deta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetdeta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Daily" representedClassName=".Daily" syncable="YES">
+        <attribute name="dailyDetail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dailyImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dailyTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deilyDeta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Goal" representedClassName=".Goal" syncable="YES">
+        <attribute name="goaldeta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="goaldetail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goaltitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GoodGLife" representedClassName=".GoodGLife" syncable="YES">
+        <attribute name="deta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ToDo" representedClassName=".ToDo" syncable="YES">
+        <attribute name="tododeta" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="todotitle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Daily" positionX="-63" positionY="54" width="128" height="105"/>
+        <element name="Goal" positionX="-9" positionY="135" width="128" height="90"/>
+        <element name="GoodGLife" positionX="-36" positionY="117" width="128" height="75"/>
+        <element name="ToDo" positionX="-36" positionY="108" width="128" height="75"/>
+        <element name="Calender" positionX="-36" positionY="117" width="128" height="105"/>
+    </elements>
+</model>

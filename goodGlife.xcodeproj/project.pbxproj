@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87117B9AABD6C29DD026B2A1 /* Pods_goodGlifeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152E42017ED57F539FBC6863 /* Pods_goodGlifeUITests.framework */; };
+		8E49CA37E8794CCA9A4DE140 /* Pods_goodGlife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73E80F01B5264A6574858A5 /* Pods_goodGlife.framework */; };
+		BA751BBD57D79F2C9440A242 /* Pods_goodGlifeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D9641DFE50B6CD376F10E3 /* Pods_goodGlifeTests.framework */; };
+		C31231C51F1245AF0055B59F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31231C41F1245AF0055B59F /* homeViewController.swift */; };
+		C31231C71F1245E80055B59F /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31231C61F1245E80055B59F /* CircleImageView.swift */; };
+		C31231CA1F124F130055B59F /* GoodGLife+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31231C81F124F130055B59F /* GoodGLife+CoreDataClass.swift */; };
+		C31231CB1F124F130055B59F /* GoodGLife+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31231C91F124F130055B59F /* GoodGLife+CoreDataProperties.swift */; };
+		C32AAD7C1F0540C900156DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AAD7B1F0540C900156DBB /* AppDelegate.swift */; };
+		C32AAD7E1F0540C900156DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AAD7D1F0540C900156DBB /* ViewController.swift */; };
+		C32AAD811F0540C900156DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32AAD7F1F0540C900156DBB /* Main.storyboard */; };
+		C32AAD841F0540C900156DBB /* goodGlife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32AAD821F0540C900156DBB /* goodGlife.xcdatamodeld */; };
+		C32AAD861F0540C900156DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32AAD851F0540C900156DBB /* Assets.xcassets */; };
+		C32AAD891F0540C900156DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32AAD871F0540C900156DBB /* LaunchScreen.storyboard */; };
+		C32AAD941F0540C900156DBB /* goodGlifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AAD931F0540C900156DBB /* goodGlifeTests.swift */; };
+		C32AAD9F1F0540C900156DBB /* goodGlifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AAD9E1F0540C900156DBB /* goodGlifeUITests.swift */; };
+		C32AADB01F05411900156DBB /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADAC1F05411900156DBB /* book.png */; };
+		C32AADB11F05411900156DBB /* calender.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADAD1F05411900156DBB /* calender.png */; };
+		C32AADB21F05411900156DBB /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADAE1F05411900156DBB /* home.png */; };
+		C32AADB31F05411900156DBB /* ToDo.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADAF1F05411900156DBB /* ToDo.png */; };
+		C32AADB61F05431600156DBB /* ToDo&GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AADB51F05431600156DBB /* ToDo&GoalViewController.swift */; };
+		C32AADC01F05675900156DBB /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AADBF1F05675900156DBB /* GoalViewController.swift */; };
+		C32AADD91F05C6B100156DBB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADD81F05C6B100156DBB /* 1.png */; };
+		C32AADDD1F05C6C000156DBB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADDA1F05C6C000156DBB /* 2.png */; };
+		C32AADDE1F05C6C000156DBB /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADDB1F05C6C000156DBB /* 3.png */; };
+		C32AADDF1F05C6C000156DBB /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C32AADDC1F05C6C000156DBB /* 4.png */; };
+		C32AADE11F05C8DE00156DBB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AADE01F05C8DE00156DBB /* CustomTableViewCell.swift */; };
+		C32AADE31F05C93400156DBB /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32AADE21F05C93400156DBB /* DailyViewController.swift */; };
+		C35A89091F0E3D76005F86EA /* DailyShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A89081F0E3D76005F86EA /* DailyShowViewController.swift */; };
+		C35A890C1F0E3E21005F86EA /* Daily+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A890A1F0E3E21005F86EA /* Daily+CoreDataClass.swift */; };
+		C35A890D1F0E3E21005F86EA /* Daily+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A890B1F0E3E21005F86EA /* Daily+CoreDataProperties.swift */; };
+		C35A89101F0E4E99005F86EA /* ToDo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A890E1F0E4E99005F86EA /* ToDo+CoreDataClass.swift */; };
+		C35A89111F0E4E99005F86EA /* ToDo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A890F1F0E4E99005F86EA /* ToDo+CoreDataProperties.swift */; };
+		C35A89141F0E4EEA005F86EA /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A89121F0E4EEA005F86EA /* Goal+CoreDataClass.swift */; };
+		C35A89151F0E4EEA005F86EA /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A89131F0E4EEA005F86EA /* Goal+CoreDataProperties.swift */; };
+		C39352C11F0877A4006E66DD /* addDailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39352C01F0877A4006E66DD /* addDailyViewController.swift */; };
+		C39353D21F0931A4006E66DD /* backicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C39353D11F0931A4006E66DD /* backicon.png */; };
+		C39353D41F0932A0006E66DD /* iconAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = C39353D31F0932A0006E66DD /* iconAdd.png */; };
+		C3A453911F17E15E0070744B /* family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A453901F17E15E0070744B /* family.jpg */; };
+		C3A453931F17E1660070744B /* couple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A453921F17E1660070744B /* couple.jpg */; };
+		C3A453961F17E16D0070744B /* work.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A453941F17E16D0070744B /* work.jpg */; };
+		C3A453971F17E16D0070744B /* friends.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3A453951F17E16D0070744B /* friends.jpg */; };
+		C3D187211F138A4600C16804 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D187201F138A4600C16804 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3D187251F14941600C16804 /* no_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3D187241F14941600C16804 /* no_image.jpg */; };
+		C3D187271F14F15300C16804 /* iconmonstr-picture-8-240.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D187261F14F15300C16804 /* iconmonstr-picture-8-240.png */; };
+		C3D1876B1F16006C00C16804 /* addCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D1876A1F16006C00C16804 /* addCalenderViewController.swift */; };
+		C3D187721F1633EF00C16804 /* Calender+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D187701F1633EF00C16804 /* Calender+CoreDataClass.swift */; };
+		C3D187731F1633EF00C16804 /* Calender+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D187711F1633EF00C16804 /* Calender+CoreDataProperties.swift */; };
+		C3D187751F1756D600C16804 /* addViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D187741F1756D600C16804 /* addViewViewController.swift */; };
+		C3E1B2041F0F5A6B0001AFE3 /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E1B2031F0F5A6B0001AFE3 /* calenderViewController.swift */; };
+		C3E1B2061F0F661B0001AFE3 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1B2051F0F661B0001AFE3 /* FSCalendar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32AAD901F0540C900156DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32AAD701F0540C900156DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32AAD771F0540C900156DBB;
+			remoteInfo = goodGlife;
+		};
+		C32AAD9B1F0540C900156DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32AAD701F0540C900156DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32AAD771F0540C900156DBB;
+			remoteInfo = goodGlife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D43413285AC1E04B85DA898 /* Pods-goodGlifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodGlifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-goodGlifeTests/Pods-goodGlifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		152E42017ED57F539FBC6863 /* Pods_goodGlifeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goodGlifeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		258C28E3D75DBD74EE01788E /* Pods-goodGlife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodGlife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goodGlife/Pods-goodGlife.debug.xcconfig"; sourceTree = "<group>"; };
+		2F42DB982DC5C8C9A0AED223 /* Pods-goodGlifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodGlifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-goodGlifeUITests/Pods-goodGlifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53F8D19C22045AE4CAC24D19 /* Pods-goodGlifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodGlifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goodGlifeTests/Pods-goodGlifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95D9641DFE50B6CD376F10E3 /* Pods_goodGlifeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goodGlifeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31231C41F1245AF0055B59F /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		C31231C61F1245E80055B59F /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		C31231C81F124F130055B59F /* GoodGLife+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GoodGLife+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C31231C91F124F130055B59F /* GoodGLife+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GoodGLife+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C32AAD781F0540C900156DBB /* goodGlife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goodGlife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32AAD7B1F0540C900156DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32AAD7D1F0540C900156DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32AAD801F0540C900156DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32AAD831F0540C900156DBB /* goodGlife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goodGlife.xcdatamodel; sourceTree = "<group>"; };
+		C32AAD851F0540C900156DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32AAD881F0540C900156DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32AAD8A1F0540C900156DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32AAD8F1F0540C900156DBB /* goodGlifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goodGlifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32AAD931F0540C900156DBB /* goodGlifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goodGlifeTests.swift; sourceTree = "<group>"; };
+		C32AAD951F0540C900156DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32AAD9A1F0540C900156DBB /* goodGlifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goodGlifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32AAD9E1F0540C900156DBB /* goodGlifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goodGlifeUITests.swift; sourceTree = "<group>"; };
+		C32AADA01F0540C900156DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32AADAC1F05411900156DBB /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		C32AADAD1F05411900156DBB /* calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender.png; sourceTree = "<group>"; };
+		C32AADAE1F05411900156DBB /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C32AADAF1F05411900156DBB /* ToDo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToDo.png; sourceTree = "<group>"; };
+		C32AADB51F05431600156DBB /* ToDo&GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDo&GoalViewController.swift"; sourceTree = "<group>"; };
+		C32AADBF1F05675900156DBB /* GoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
+		C32AADD81F05C6B100156DBB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C32AADDA1F05C6C000156DBB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C32AADDB1F05C6C000156DBB /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C32AADDC1F05C6C000156DBB /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		C32AADE01F05C8DE00156DBB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C32AADE21F05C93400156DBB /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		C35A89081F0E3D76005F86EA /* DailyShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyShowViewController.swift; sourceTree = "<group>"; };
+		C35A890A1F0E3E21005F86EA /* Daily+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Daily+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C35A890B1F0E3E21005F86EA /* Daily+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Daily+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C35A890E1F0E4E99005F86EA /* ToDo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C35A890F1F0E4E99005F86EA /* ToDo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ToDo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C35A89121F0E4EEA005F86EA /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C35A89131F0E4EEA005F86EA /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C39352C01F0877A4006E66DD /* addDailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addDailyViewController.swift; sourceTree = "<group>"; };
+		C39353D11F0931A4006E66DD /* backicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backicon.png; sourceTree = "<group>"; };
+		C39353D31F0932A0006E66DD /* iconAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconAdd.png; sourceTree = "<group>"; };
+		C3A453901F17E15E0070744B /* family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family.jpg; sourceTree = "<group>"; };
+		C3A453921F17E1660070744B /* couple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = couple.jpg; sourceTree = "<group>"; };
+		C3A453941F17E16D0070744B /* work.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work.jpg; sourceTree = "<group>"; };
+		C3A453951F17E16D0070744B /* friends.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friends.jpg; sourceTree = "<group>"; };
+		C3D1871E1F13604400C16804 /* goodGlife-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "goodGlife-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3D187201F138A4600C16804 /* FSCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = Pods/FSCalendar/FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		C3D187241F14941600C16804 /* no_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_image.jpg; sourceTree = "<group>"; };
+		C3D187261F14F15300C16804 /* iconmonstr-picture-8-240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-picture-8-240.png"; sourceTree = "<group>"; };
+		C3D1876A1F16006C00C16804 /* addCalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addCalenderViewController.swift; sourceTree = "<group>"; };
+		C3D187701F1633EF00C16804 /* Calender+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calender+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C3D187711F1633EF00C16804 /* Calender+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calender+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C3D187741F1756D600C16804 /* addViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewViewController.swift; sourceTree = "<group>"; };
+		C3E1B2031F0F5A6B0001AFE3 /* calenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = calenderViewController.swift; path = ../calenderViewController.swift; sourceTree = "<group>"; };
+		C3E1B2051F0F661B0001AFE3 /* FSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSCalendar.framework; path = "Pods/../build/Debug-iphoneos/FSCalendar/FSCalendar.framework"; sourceTree = "<group>"; };
+		D48E996B6E2707035DB9996B /* Pods-goodGlife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodGlife.release.xcconfig"; path = "Pods/Target Support Files/Pods-goodGlife/Pods-goodGlife.release.xcconfig"; sourceTree = "<group>"; };
+		D79D95AC25CBCA20DEF0D6FC /* Pods-goodGlifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goodGlifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goodGlifeUITests/Pods-goodGlifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F73E80F01B5264A6574858A5 /* Pods_goodGlife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goodGlife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32AAD751F0540C900156DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E1B2061F0F661B0001AFE3 /* FSCalendar.framework in Frameworks */,
+				8E49CA37E8794CCA9A4DE140 /* Pods_goodGlife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32AAD8C1F0540C900156DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA751BBD57D79F2C9440A242 /* Pods_goodGlifeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32AAD971F0540C900156DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87117B9AABD6C29DD026B2A1 /* Pods_goodGlifeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB2588EC8C10896CBF0554F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258C28E3D75DBD74EE01788E /* Pods-goodGlife.debug.xcconfig */,
+				D48E996B6E2707035DB9996B /* Pods-goodGlife.release.xcconfig */,
+				53F8D19C22045AE4CAC24D19 /* Pods-goodGlifeTests.debug.xcconfig */,
+				0D43413285AC1E04B85DA898 /* Pods-goodGlifeTests.release.xcconfig */,
+				D79D95AC25CBCA20DEF0D6FC /* Pods-goodGlifeUITests.debug.xcconfig */,
+				2F42DB982DC5C8C9A0AED223 /* Pods-goodGlifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B99D8F07C966D7409015E16D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1B2051F0F661B0001AFE3 /* FSCalendar.framework */,
+				F73E80F01B5264A6574858A5 /* Pods_goodGlife.framework */,
+				95D9641DFE50B6CD376F10E3 /* Pods_goodGlifeTests.framework */,
+				152E42017ED57F539FBC6863 /* Pods_goodGlifeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3005A951F0A119300CDF63D /* ToDoGoal */ = {
+			isa = PBXGroup;
+			children = (
+				C32AADB51F05431600156DBB /* ToDo&GoalViewController.swift */,
+				C32AADBF1F05675900156DBB /* GoalViewController.swift */,
+			);
+			name = ToDoGoal;
+			sourceTree = "<group>";
+		};
+		C3005A961F0A11BF00CDF63D /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				C31231C61F1245E80055B59F /* CircleImageView.swift */,
+				C32AADE21F05C93400156DBB /* DailyViewController.swift */,
+				C35A89081F0E3D76005F86EA /* DailyShowViewController.swift */,
+				C39352C01F0877A4006E66DD /* addDailyViewController.swift */,
+			);
+			name = Daily;
+			sourceTree = "<group>";
+		};
+		C32AAD6F1F0540C900156DBB = {
+			isa = PBXGroup;
+			children = (
+				C3D187201F138A4600C16804 /* FSCalendar.h */,
+				C3D1871A1F134C1B00C16804 /* CoraDeta */,
+				C32AAD7A1F0540C900156DBB /* goodGlife */,
+				C32AAD921F0540C900156DBB /* goodGlifeTests */,
+				C32AAD9D1F0540C900156DBB /* goodGlifeUITests */,
+				C32AAD791F0540C900156DBB /* Products */,
+				8DB2588EC8C10896CBF0554F /* Pods */,
+				B99D8F07C966D7409015E16D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32AAD791F0540C900156DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32AAD781F0540C900156DBB /* goodGlife.app */,
+				C32AAD8F1F0540C900156DBB /* goodGlifeTests.xctest */,
+				C32AAD9A1F0540C900156DBB /* goodGlifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32AAD7A1F0540C900156DBB /* goodGlife */ = {
+			isa = PBXGroup;
+			children = (
+				C32AADB41F0542EC00156DBB /* img */,
+				C3D1871B1F134C3A00C16804 /* Grammar List */,
+				C32AAD7B1F0540C900156DBB /* AppDelegate.swift */,
+				C32AAD7D1F0540C900156DBB /* ViewController.swift */,
+				C32AADE01F05C8DE00156DBB /* CustomTableViewCell.swift */,
+				C32AAD7F1F0540C900156DBB /* Main.storyboard */,
+				C3D187741F1756D600C16804 /* addViewViewController.swift */,
+				C3D1871E1F13604400C16804 /* goodGlife-Bridging-Header.h */,
+				C32AAD871F0540C900156DBB /* LaunchScreen.storyboard */,
+				C32AAD851F0540C900156DBB /* Assets.xcassets */,
+				C32AAD8A1F0540C900156DBB /* Info.plist */,
+				C32AAD821F0540C900156DBB /* goodGlife.xcdatamodeld */,
+			);
+			path = goodGlife;
+			sourceTree = "<group>";
+		};
+		C32AAD921F0540C900156DBB /* goodGlifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32AAD931F0540C900156DBB /* goodGlifeTests.swift */,
+				C32AAD951F0540C900156DBB /* Info.plist */,
+			);
+			path = goodGlifeTests;
+			sourceTree = "<group>";
+		};
+		C32AAD9D1F0540C900156DBB /* goodGlifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32AAD9E1F0540C900156DBB /* goodGlifeUITests.swift */,
+				C32AADA01F0540C900156DBB /* Info.plist */,
+			);
+			path = goodGlifeUITests;
+			sourceTree = "<group>";
+		};
+		C32AADB41F0542EC00156DBB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				C3A453941F17E16D0070744B /* work.jpg */,
+				C3A453951F17E16D0070744B /* friends.jpg */,
+				C3A453921F17E1660070744B /* couple.jpg */,
+				C3A453901F17E15E0070744B /* family.jpg */,
+				C3D187261F14F15300C16804 /* iconmonstr-picture-8-240.png */,
+				C3D187241F14941600C16804 /* no_image.jpg */,
+				C39353D31F0932A0006E66DD /* iconAdd.png */,
+				C39353D11F0931A4006E66DD /* backicon.png */,
+				C32AADD81F05C6B100156DBB /* 1.png */,
+				C32AADDA1F05C6C000156DBB /* 2.png */,
+				C32AADDB1F05C6C000156DBB /* 3.png */,
+				C32AADDC1F05C6C000156DBB /* 4.png */,
+				C32AADAC1F05411900156DBB /* book.png */,
+				C32AADAD1F05411900156DBB /* calender.png */,
+				C32AADAE1F05411900156DBB /* home.png */,
+				C32AADAF1F05411900156DBB /* ToDo.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		C3D1871A1F134C1B00C16804 /* CoraDeta */ = {
+			isa = PBXGroup;
+			children = (
+				C3D187701F1633EF00C16804 /* Calender+CoreDataClass.swift */,
+				C3D187711F1633EF00C16804 /* Calender+CoreDataProperties.swift */,
+				C31231C81F124F130055B59F /* GoodGLife+CoreDataClass.swift */,
+				C31231C91F124F130055B59F /* GoodGLife+CoreDataProperties.swift */,
+				C35A89121F0E4EEA005F86EA /* Goal+CoreDataClass.swift */,
+				C35A89131F0E4EEA005F86EA /* Goal+CoreDataProperties.swift */,
+				C35A890E1F0E4E99005F86EA /* ToDo+CoreDataClass.swift */,
+				C35A890F1F0E4E99005F86EA /* ToDo+CoreDataProperties.swift */,
+				C35A890A1F0E3E21005F86EA /* Daily+CoreDataClass.swift */,
+				C35A890B1F0E3E21005F86EA /* Daily+CoreDataProperties.swift */,
+			);
+			name = CoraDeta;
+			sourceTree = "<group>";
+		};
+		C3D1871B1F134C3A00C16804 /* Grammar List */ = {
+			isa = PBXGroup;
+			children = (
+				C3D1871D1F134CD200C16804 /* Home */,
+				C3005A951F0A119300CDF63D /* ToDoGoal */,
+				C3D1871C1F134C9200C16804 /* calender */,
+				C3005A961F0A11BF00CDF63D /* Daily */,
+			);
+			name = "Grammar List";
+			sourceTree = "<group>";
+		};
+		C3D1871C1F134C9200C16804 /* calender */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1B2031F0F5A6B0001AFE3 /* calenderViewController.swift */,
+				C3D1876A1F16006C00C16804 /* addCalenderViewController.swift */,
+			);
+			name = calender;
+			sourceTree = "<group>";
+		};
+		C3D1871D1F134CD200C16804 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C31231C41F1245AF0055B59F /* homeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3D1871F1F1389CF00C16804 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D187211F138A4600C16804 /* FSCalendar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C32AAD771F0540C900156DBB /* goodGlife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32AADA31F0540C900156DBB /* Build configuration list for PBXNativeTarget "goodGlife" */;
+			buildPhases = (
+				291CC97F45CB62FA728F65D7 /* [CP] Check Pods Manifest.lock */,
+				C32AAD741F0540C900156DBB /* Sources */,
+				C32AAD751F0540C900156DBB /* Frameworks */,
+				C32AAD761F0540C900156DBB /* Resources */,
+				77C7B0E2EE373AA9ECCE491A /* [CP] Embed Pods Frameworks */,
+				F3C821F50375A0F0730E20B0 /* [CP] Copy Pods Resources */,
+				C3D1871F1F1389CF00C16804 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goodGlife;
+			productName = goodGlife;
+			productReference = C32AAD781F0540C900156DBB /* goodGlife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32AAD8E1F0540C900156DBB /* goodGlifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32AADA61F0540C900156DBB /* Build configuration list for PBXNativeTarget "goodGlifeTests" */;
+			buildPhases = (
+				3588202B5E20BFC5D5B6A68B /* [CP] Check Pods Manifest.lock */,
+				C32AAD8B1F0540C900156DBB /* Sources */,
+				C32AAD8C1F0540C900156DBB /* Frameworks */,
+				C32AAD8D1F0540C900156DBB /* Resources */,
+				7D4A461A8E8579E4C44142ED /* [CP] Embed Pods Frameworks */,
+				52DF11E88477C7D0768F3060 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32AAD911F0540C900156DBB /* PBXTargetDependency */,
+			);
+			name = goodGlifeTests;
+			productName = goodGlifeTests;
+			productReference = C32AAD8F1F0540C900156DBB /* goodGlifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32AAD991F0540C900156DBB /* goodGlifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32AADA91F0540C900156DBB /* Build configuration list for PBXNativeTarget "goodGlifeUITests" */;
+			buildPhases = (
+				45B4A2E203266AA56E771BCE /* [CP] Check Pods Manifest.lock */,
+				C32AAD961F0540C900156DBB /* Sources */,
+				C32AAD971F0540C900156DBB /* Frameworks */,
+				C32AAD981F0540C900156DBB /* Resources */,
+				1CE9DDBFFB75758EA9859170 /* [CP] Embed Pods Frameworks */,
+				0E3AF6678CEF5EDF94E38C63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32AAD9C1F0540C900156DBB /* PBXTargetDependency */,
+			);
+			name = goodGlifeUITests;
+			productName = goodGlifeUITests;
+			productReference = C32AAD9A1F0540C900156DBB /* goodGlifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32AAD701F0540C900156DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yoshiki Togashi";
+				TargetAttributes = {
+					C32AAD771F0540C900156DBB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A43L77VGT5;
+						ProvisioningStyle = Manual;
+					};
+					C32AAD8E1F0540C900156DBB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RM4HXBF5ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C32AAD771F0540C900156DBB;
+					};
+					C32AAD991F0540C900156DBB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RM4HXBF5ZT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C32AAD771F0540C900156DBB;
+					};
+				};
+			};
+			buildConfigurationList = C32AAD731F0540C900156DBB /* Build configuration list for PBXProject "goodGlife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32AAD6F1F0540C900156DBB;
+			productRefGroup = C32AAD791F0540C900156DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32AAD771F0540C900156DBB /* goodGlife */,
+				C32AAD8E1F0540C900156DBB /* goodGlifeTests */,
+				C32AAD991F0540C900156DBB /* goodGlifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32AAD761F0540C900156DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32AADDF1F05C6C000156DBB /* 4.png in Resources */,
+				C32AAD891F0540C900156DBB /* LaunchScreen.storyboard in Resources */,
+				C32AADD91F05C6B100156DBB /* 1.png in Resources */,
+				C32AAD861F0540C900156DBB /* Assets.xcassets in Resources */,
+				C3A453961F17E16D0070744B /* work.jpg in Resources */,
+				C32AADB21F05411900156DBB /* home.png in Resources */,
+				C39353D21F0931A4006E66DD /* backicon.png in Resources */,
+				C32AADB11F05411900156DBB /* calender.png in Resources */,
+				C32AADDE1F05C6C000156DBB /* 3.png in Resources */,
+				C3D187251F14941600C16804 /* no_image.jpg in Resources */,
+				C32AADB31F05411900156DBB /* ToDo.png in Resources */,
+				C39353D41F0932A0006E66DD /* iconAdd.png in Resources */,
+				C3A453911F17E15E0070744B /* family.jpg in Resources */,
+				C3A453931F17E1660070744B /* couple.jpg in Resources */,
+				C3A453971F17E16D0070744B /* friends.jpg in Resources */,
+				C32AADDD1F05C6C000156DBB /* 2.png in Resources */,
+				C3D187271F14F15300C16804 /* iconmonstr-picture-8-240.png in Resources */,
+				C32AADB01F05411900156DBB /* book.png in Resources */,
+				C32AAD811F0540C900156DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32AAD8D1F0540C900156DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32AAD981F0540C900156DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3AF6678CEF5EDF94E38C63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goodGlifeUITests/Pods-goodGlifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CE9DDBFFB75758EA9859170 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goodGlifeUITests/Pods-goodGlifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		291CC97F45CB62FA728F65D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3588202B5E20BFC5D5B6A68B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45B4A2E203266AA56E771BCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52DF11E88477C7D0768F3060 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goodGlifeTests/Pods-goodGlifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C7B0E2EE373AA9ECCE491A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goodGlife/Pods-goodGlife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4A461A8E8579E4C44142ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goodGlifeTests/Pods-goodGlifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C821F50375A0F0730E20B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goodGlife/Pods-goodGlife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32AAD741F0540C900156DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31231CA1F124F130055B59F /* GoodGLife+CoreDataClass.swift in Sources */,
+				C35A89111F0E4E99005F86EA /* ToDo+CoreDataProperties.swift in Sources */,
+				C39352C11F0877A4006E66DD /* addDailyViewController.swift in Sources */,
+				C32AADC01F05675900156DBB /* GoalViewController.swift in Sources */,
+				C35A890C1F0E3E21005F86EA /* Daily+CoreDataClass.swift in Sources */,
+				C3E1B2041F0F5A6B0001AFE3 /* calenderViewController.swift in Sources */,
+				C32AADE31F05C93400156DBB /* DailyViewController.swift in Sources */,
+				C35A89151F0E4EEA005F86EA /* Goal+CoreDataProperties.swift in Sources */,
+				C35A890D1F0E3E21005F86EA /* Daily+CoreDataProperties.swift in Sources */,
+				C3D187751F1756D600C16804 /* addViewViewController.swift in Sources */,
+				C35A89101F0E4E99005F86EA /* ToDo+CoreDataClass.swift in Sources */,
+				C32AADE11F05C8DE00156DBB /* CustomTableViewCell.swift in Sources */,
+				C31231C71F1245E80055B59F /* CircleImageView.swift in Sources */,
+				C35A89141F0E4EEA005F86EA /* Goal+CoreDataClass.swift in Sources */,
+				C32AAD7E1F0540C900156DBB /* ViewController.swift in Sources */,
+				C32AAD841F0540C900156DBB /* goodGlife.xcdatamodeld in Sources */,
+				C32AADB61F05431600156DBB /* ToDo&GoalViewController.swift in Sources */,
+				C31231CB1F124F130055B59F /* GoodGLife+CoreDataProperties.swift in Sources */,
+				C3D187721F1633EF00C16804 /* Calender+CoreDataClass.swift in Sources */,
+				C35A89091F0E3D76005F86EA /* DailyShowViewController.swift in Sources */,
+				C3D187731F1633EF00C16804 /* Calender+CoreDataProperties.swift in Sources */,
+				C31231C51F1245AF0055B59F /* homeViewController.swift in Sources */,
+				C3D1876B1F16006C00C16804 /* addCalenderViewController.swift in Sources */,
+				C32AAD7C1F0540C900156DBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32AAD8B1F0540C900156DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32AAD941F0540C900156DBB /* goodGlifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32AAD961F0540C900156DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32AAD9F1F0540C900156DBB /* goodGlifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32AAD911F0540C900156DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32AAD771F0540C900156DBB /* goodGlife */;
+			targetProxy = C32AAD901F0540C900156DBB /* PBXContainerItemProxy */;
+		};
+		C32AAD9C1F0540C900156DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32AAD771F0540C900156DBB /* goodGlife */;
+			targetProxy = C32AAD9B1F0540C900156DBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32AAD7F1F0540C900156DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32AAD801F0540C900156DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32AAD871F0540C900156DBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32AAD881F0540C900156DBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32AADA11F0540C900156DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PROVISIONING_PROFILE = "5c4bfe09-01bf-4c64-9b49-99729fbd2b4d";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32AADA21F0540C900156DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "5c4bfe09-01bf-4c64-9b49-99729fbd2b4d";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32AADA41F0540C900156DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258C28E3D75DBD74EE01788E /* Pods-goodGlife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FSCalendar",
+				);
+				INFOPLIST_FILE = goodGlife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi19930807.goodGlife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "86f7aff1-83f0-4e0c-b523-e905715a1b4b";
+				PROVISIONING_PROFILE_SPECIFIER = GoodGLife;
+				SWIFT_OBJC_BRIDGING_HEADER = "goodGlife/goodGlife-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C32AADA51F0540C900156DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48E996B6E2707035DB9996B /* Pods-goodGlife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = A43L77VGT5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FSCalendar",
+				);
+				INFOPLIST_FILE = goodGlife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi19930807.goodGlife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "86f7aff1-83f0-4e0c-b523-e905715a1b4b";
+				PROVISIONING_PROFILE_SPECIFIER = GoodGLife;
+				SWIFT_OBJC_BRIDGING_HEADER = "goodGlife/goodGlife-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C32AADA71F0540C900156DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F8D19C22045AE4CAC24D19 /* Pods-goodGlifeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RM4HXBF5ZT;
+				INFOPLIST_FILE = goodGlifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.goodGlifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goodGlife.app/goodGlife";
+			};
+			name = Debug;
+		};
+		C32AADA81F0540C900156DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D43413285AC1E04B85DA898 /* Pods-goodGlifeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RM4HXBF5ZT;
+				INFOPLIST_FILE = goodGlifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.goodGlifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goodGlife.app/goodGlife";
+			};
+			name = Release;
+		};
+		C32AADAA1F0540C900156DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79D95AC25CBCA20DEF0D6FC /* Pods-goodGlifeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RM4HXBF5ZT;
+				INFOPLIST_FILE = goodGlifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.goodGlifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = goodGlife;
+			};
+			name = Debug;
+		};
+		C32AADAB1F0540C900156DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F42DB982DC5C8C9A0AED223 /* Pods-goodGlifeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RM4HXBF5ZT;
+				INFOPLIST_FILE = goodGlifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoshikitogashi.goodGlifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = goodGlife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32AAD731F0540C900156DBB /* Build configuration list for PBXProject "goodGlife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32AADA11F0540C900156DBB /* Debug */,
+				C32AADA21F0540C900156DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32AADA31F0540C900156DBB /* Build configuration list for PBXNativeTarget "goodGlife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32AADA41F0540C900156DBB /* Debug */,
+				C32AADA51F0540C900156DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32AADA61F0540C900156DBB /* Build configuration list for PBXNativeTarget "goodGlifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32AADA71F0540C900156DBB /* Debug */,
+				C32AADA81F0540C900156DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32AADA91F0540C900156DBB /* Build configuration list for PBXNativeTarget "goodGlifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32AADAA1F0540C900156DBB /* Debug */,
+				C32AADAB1F0540C900156DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C32AAD821F0540C900156DBB /* goodGlife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C32AAD831F0540C900156DBB /* goodGlife.xcdatamodel */,
+			);
+			currentVersion = C32AAD831F0540C900156DBB /* goodGlife.xcdatamodel */;
+			path = goodGlife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C32AAD701F0540C900156DBB /* Project object */;
+}

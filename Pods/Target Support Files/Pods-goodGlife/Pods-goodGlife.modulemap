@@ -1,0 +1,6 @@
+framework module Pods_goodGlife {
+  umbrella header "Pods-goodGlife-umbrella.h"
+
+  export *
+  module * { export * }
+}
